@@ -6,6 +6,10 @@
 
 }
 
+.container-fluid {
+  margin-left: 10px; 
+}
+
 .badge{
   background-color: #2f9339;
   /* background-color: #1899c1; */
