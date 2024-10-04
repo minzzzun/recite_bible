@@ -1,0 +1,100 @@
+.edit_btn{
+  background-color: #75e382;
+  border : 1px  solid;
+  border-radius: 20px;
+  padding: 10px 20px; 
+
+}
+
+.badge{
+  background-color: #2f9339;
+  /* background-color: #1899c1; */
+  padding: 5px 10px;
+}
+
+
+.pray{
+  background-color: hsl(81, 22%, 55%);
+
+  padding: 5px 10px;
+}
+
+
+body {
+  font-family: 'Nanum Gothic', 'Malgun Gothic', sans-serif;
+}
+
+
+#verseTitle{
+  width: 400px;
+}
+#verseContent ,#prayText{
+  width: 400px;
+  height: 400px;
+}
+
+#bibleUrl{
+  width: 400px;
+}
+
+
+
+#saveBtn {
+  padding: 10px 20px;
+  background-color: #2f9339;
+  color: white;
+  margin-bottom: 10px;
+  width: 115%;
+}
+
+
+#cancelBtn{
+  padding: 10px 20px;
+  color: white;
+  width: 115%;
+}
+
+
+#listBtn{
+  padding: 10px 20px;
+  background-color: #46a8f9;
+  color: white;
+  margin-bottom: 10px;
+  width: 115%;
+}
+
+
+.panel-default{
+  cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  input {
+    width: 90%; 
+    padding: 8px;
+    font-size: 14px;
+    
+  }
+
+  #saveBtn, #cancelBtn ,#listBtn{
+    width : 350px;
+  }
+
+ 
+}
+
+
+@media screen and (max-width: 300px) {
+  input {
+    padding: 5px;
+    font-size: 12px;
+    width: 50%;
+  }
+
+  #saveBtn, #cancelBtn {
+    width : 100px;
+  }
+
+}
